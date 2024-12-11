@@ -8,7 +8,7 @@ const LayoutUser = ({}) => {
     <div>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/edu-chat" element={<EduChat />} />
+        <Route path="https://eduvate-iota.vercel.app/edu-chat" element={<EduChat />} />
       </Routes>
     </div>
   );
