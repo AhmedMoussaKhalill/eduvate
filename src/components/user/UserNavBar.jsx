@@ -7,7 +7,7 @@ const UserNavBar = () => {
   return (
     <header className="mx-auto max-w-7xl px-6 py-7">
       <div className="flex items-center justify-between">
-        <Link to="/" className=" relative text-4xl font-bold">
+        <Link to="/" className=" logo relative text-4xl font-bold">
           Edu
           <span className="logo bg-gradient-to-tr from-blue-700 via-blue-600 to-blue-500 bg-clip-text pr-1.5 text-transparent">
             vate
