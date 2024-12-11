@@ -1,14 +1,14 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import UserNavBar from "./components/user/UserNavBar";
 import Landing from "./components/landing/Landing";
+import EduChat from "./components/user/Edu-Chat";
 
 const LayoutUser = ({}) => {
   return (
     <div>
-      <UserNavBar />
       <Routes>
         <Route path="/" element={<Landing />} />
+        <Route path="/edu-chat" element={<EduChat />} />
       </Routes>
     </div>
   );
